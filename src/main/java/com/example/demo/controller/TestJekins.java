@@ -21,6 +21,6 @@ public class TestJekins {
     @ResponseBody
     @RequestMapping(value = "/test")
     public String data2() {
-        return "test";
+        return "test11";
     }
 }
