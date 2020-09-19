@@ -17,4 +17,10 @@ public class TestJekins {
     public String data() {
         return "hello";
     }
+
+    @ResponseBody
+    @RequestMapping(value = "/test")
+    public String data2() {
+        return "test";
+    }
 }
