@@ -19,7 +19,7 @@ public class TestJekins {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/test")
+    @RequestMapping(value = "/test2")
     public String data2() {
         return "test github";
     }
